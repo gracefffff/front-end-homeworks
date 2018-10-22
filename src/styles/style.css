@@ -1,0 +1,170 @@
+.body {
+
+    margin: 0;
+
+}
+
+.header{
+    margin:0;
+    width:1132px;
+    padding-top: 64px;
+    padding-left:62px;
+}
+._header_main_title{
+    vertical-align: top;
+    font-family: Inconsolata, monospace;
+    font-size:23px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing:7px;
+    display: inline-block;
+    line-height:23px;
+    margin:0;
+    padding:0;
+}
+.header_titles{
+    list-style: none;
+    display: inline-block;
+    margin:0;
+    padding:0;
+}
+.header_titles_item{
+    margin:0 ;
+    font-size:14px;
+    padding: 0;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: Arial, monospace;
+}
+.lifestyle{
+    margin-left:357px;
+}
+.photodiary {
+    margin-left: 116px;
+}
+.music {
+    margin-left:96px;
+}
+.travel{
+    margin-left:88px;
+}
+.main{
+    width:1062px;
+    margin:68px  auto 225px 62px;
+}
+.main_top{
+    margin:0;
+}
+
+.main_middle{
+    padding:0;
+    width:657px;
+    margin-left:80px;
+    margin-top:92px;
+}
+.main_title{
+    text-transform: uppercase;
+    font-size:14px;
+    color:#b4ad9e;
+    font-weight: normal;
+    font-family: Arial, monospace;
+}
+.main_subtitle{
+    margin-top:23px;
+    font-size:30px;
+    font-weight: normal;
+    font-family: Arial, serif;
+    color:#626262;
+}
+.main_top_text{
+    margin-top:30px;
+    font-size:14px;
+    font-family: Arial, monospace;
+    line-height: 24px;
+    color:#626262;
+}
+.main_middle_image{
+    margin-top:70px;
+}
+.main_bottom_text{
+    margin-top:35px;
+    font-size:14px;
+    font-family: Arial, monospace;
+    line-height: 24px;
+    color:#626262;
+    display: inline-block;
+
+}
+.main_right{
+    display: inline-block;
+    float: right;
+    margin-top:-1213px;
+    margin-left:788px;
+}
+.main_right_peronal_info_title{
+    font-family: Arial, monospace;
+    font-size: 24px;
+    line-height: 20px;
+    color: #626262;
+    font-weight: normal;
+    margin-top:22px;
+    margin-left:-5px;
+}
+.main_right_text{
+    font-family: Arial, monospace;
+    font-size: 12px;
+    line-height: 20px;
+    color: #626262;
+    margin-top:-16px;
+    margin-left:-5px;
+}
+.main_right_subtitle{
+    text-transform: uppercase;
+    font-size:14px;
+    color:#b4ad9e;
+    font-weight: normal;
+    font-family: Arial, monospace;
+    margin-top:27px;
+}
+.main_right_posts{
+margin-top:32px;
+    margin-left:-10px;
+    color:#b4ad9e;
+    list-style-position:outside;
+}
+.post_name{
+    font-size:16px;
+    font-family: Arial, monospace;
+    color: #626262;
+
+
+
+}
+.comments{
+    padding-top:0;
+    text-transform: uppercase;
+    font-size:12px;
+    color:#b4ad9e;
+    font-weight: normal;
+    font-family: Arial, monospace;
+    padding-bottom:6px;
+}
+.footer{
+    width:1201px;
+    background-color:#f0f0f0;
+    height:250px;
+}
+.footer_titles{
+    margin-left:84px;
+    margin-top:17px;
+}
+.footer_title{
+    display: inline-block;
+    font-family: Arial, serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+    margin-left:15px;
+    margin-top:30px;
+
+}
