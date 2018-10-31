@@ -1,0 +1,142 @@
+
+body{
+
+margin:100px;
+}
+.header{
+    width: 360px;
+    height: 263px;
+    position: relative;
+}
+
+
+.header::after{
+    content:'';
+    position:absolute;
+    width:40px;
+    height:35px;
+    background: #262626 url(../images/Forma1.png) no-repeat center;
+    background-position-x:6px;
+    top:228px;
+    left:160px;
+}
+
+
+.main_screen{
+    width:360px;
+    height:557px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5); /* Параметры тени */
+
+}
+
+.main{
+width:360px;
+    height:179px;
+    margin:0;
+    padding:0;
+}
+
+
+.titles{
+width:360px;
+    height:71px;
+    list-style: none;
+    padding:0;
+    margin-top:42px;
+
+}
+.title{
+    padding:0;
+    margin-top:6px;
+
+}
+.adventures{
+    font-size: 14px;
+    font-family:'Hind',sans-serif;;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align:center;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #999999;
+    margin:0;
+}
+.name{
+    font-family:'Montserrat',sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #212121;
+    text-align:left;
+    margin:0 0 0 36px;
+
+}
+.date{
+    font-size: 14px;
+    font-family: 'Hind',sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align:center;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #999999;
+    margin:0;
+
+}
+.button::before{
+    content: '';
+    left: 33px;
+    width: 30px;
+    height: 29px;
+    position: absolute;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    margin-top: -5px;
+    margin-left:132px;
+}
+.button{
+    margin-top:51px;
+    font-size: 14px;
+    font-family: 'Hind',sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align:center;
+    letter-spacing: 3px;
+    line-height: 24px;
+    color: #999999;
+    position:relative;
+}
+
+.button:hover{
+    color:#d67900;
+}
+.button:hover::before {
+    border-color:#d67900;
+    color:#d67900;
+}
+.footer{
+    height:64px;
+    border-top: 1px solid #f7f7f7;
+    margin-top:11px;
+
+}
+.icon{
+    margin-left:30px;
+    margin-top:22px;
+    display: inline-block;
+}
+.comments{
+    margin-top:2px;
+    margin-left:5px;
+    display: inline-block;
+font-size:14px;
+    font-weight: normal;
+font-family:'Hind',sans-serif;
+    text-transform: uppercase;
+    color:#999999;
+    letter-spacing: 1px;
+    line-height: 28px;
+
+}
