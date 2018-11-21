@@ -8,28 +8,36 @@
 <body>
 <div class="main">
     <h1 class="main__title">Давайте начнем!</h1>
-    <form>
-        <label class="main__form-title">Имя
-        <input type="text" name="username" placeholder="Чендлер">
+    <form class="main__form">
+        <label class="main__form-title"> Имя
+        <input class="main__form_box-input" type="text" name="username" placeholder="Чендлер">
         </label>
         <label class="main__form-title">Фамилия
-        <input type="text" name="surname" placeholder="Бинг">
+        <input class="main__form_box-input" type="text" name="surname" placeholder="Бинг">
         </label>
-        <label> Ваш пол
-        <input type="radio" name="" value="gender"> Женский
+        <label class="main__form-title"> Ваш пол
+            <label class="main__form-gender">
+                <label>
+        <input  type="radio" name="gender" > Женский
+                   </label>
+                <label class="main__form_gender-box">
+        <input  type="radio" name="gender"> Мужской
+            </label>
+            </label>
+        </label>
 
-        <input type="radio" name="day" value="gender"> Мужской
-        </label>
         <label class="main__form-title">Введите электронный адрес
-        <input type="email" name="user-email" placeholder="email@gmail.com">
+        <input class="main__form_box-input" type="email" name="user-email" placeholder="email@gmail.com">
         </label>
         <label class="main__form-title">Придумайте пароль
-            <input type="password" name="user-password" placeholder="12345">
+            <input class="main__form_box-input" type="password" name="user-password" placeholder="12345">
         </label>
-        <label>
-            <input type="checkbox" name="terms">
-            Я принимаю условия<a href="#"> Пользовательского соглашения</a>и даю своё согласие на обработку моих персональных данных
+        <label class="main__form_text-accept">
+            <input class="main__form_box-accept" type="checkbox" name="terms">
+            
+            Я принимаю условия<a href="#"> Пользовательского соглашения</a> и даю своё согласие на обработку моих персональных данных
             на условиях, определенных <a href="#"> Политикой конфиденциальности</a>.
+
         </label>
         <div class="main__button">
             <p class="main__button_text">Зарегестрироваться</p>

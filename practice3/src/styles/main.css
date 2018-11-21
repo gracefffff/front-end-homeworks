@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+body{
+    margin:0;
+    padding:0;
+    font-family: 'PT Sans', sans-serif;
+
+}
+.main{
+    height:770px;
+    width:427px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    margin:24px 0 0 24px;
+    overflow: auto;
+
+
+}
+.main__title{
+
+    font-size: 33px;
+    line-height: 20px;
+    color: #262e73;
+    font-weight: bold;
+    margin-left:84px;
+    margin-top:68px;
+    margin-bottom:0;
+    padding:0;
+}
+
+.main__form_box-input{
+    height:37px;
+    width:347px;
+    display: block;
+    font-size: 17px;
+    line-height: 11px;
+    color: #282828;
+    margin-top:10px;
+    margin-bottom:21px;
+
+}
+.main__form-title, .main__form-gender{
+    display: block;
+}
+.main__form-title{
+    font-size: 14px;
+    line-height: 7px;
+    color: #262e73;
+    margin-top:10px;
+}
+.main__form{
+    margin-left:21px;
+    margin-top:43px;
+}
+.main__form-gender{
+    margin-left:-4px;
+    margin-top:14px;
+    color:#282828;
+    font-size: 17px;
+    line-height: 11px;
+    margin-bottom:25px;
+}
+.main__form_gender-box{
+    margin-left:14px;
+}
+.main__form_text-accept{
+    width: 903px;
+    height: 109px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #565d69;
+
+
+}
+
+input{
+    font-family: 'PT Sans', sans-serif;
+    padding-left:19px;
+}
+.main__form_box-accept{
+    margin-top:3px;
+    margin-left:0;
+    width:15px;
+    height:15px;
+}
