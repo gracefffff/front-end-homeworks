@@ -14,11 +14,14 @@ body{
 
 
 }
+.link, .main__title,.main__form-title{
+    color: #262e73;
+}
 .main__title{
 
     font-size: 33px;
     line-height: 20px;
-    color: #262e73;
+
     font-weight: bold;
     margin-left:84px;
     margin-top:68px;
@@ -43,7 +46,6 @@ body{
 .main__form-title{
     font-size: 14px;
     line-height: 7px;
-    color: #262e73;
     margin-top:10px;
 }
 .main__form{
@@ -62,15 +64,13 @@ body{
     margin-left:14px;
 }
 .main__form_text-accept{
-    width: 903px;
-    height: 109px;
     font-size: 12px;
-    line-height: 14px;
     color: #565d69;
+    line-height: 12px;
+    display: flex;
 
 
 }
-
 input{
     font-family: 'PT Sans', sans-serif;
     padding-left:19px;
@@ -80,4 +80,28 @@ input{
     margin-left:0;
     width:15px;
     height:15px;
+
+
+}
+.main__button{
+    margin-top:15px;
+width:371px;
+    height:44px;
+    border-radius: 5px;
+    background-color: #0bc691;
+    font-size: 17px;
+    color: #ffffff;
+    line-height: 5px;
+    border: 0;
+}
+.main__form_text-accept-style{
+     width:347px;
+
+}
+.main__button_text{
+
+
+    padding-left:112px;
+    padding-top:18px;
+
 }

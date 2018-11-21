@@ -10,38 +10,39 @@
     <h1 class="main__title">Давайте начнем!</h1>
     <form class="main__form">
         <label class="main__form-title"> Имя
-        <input class="main__form_box-input" type="text" name="username" placeholder="Чендлер">
+            <input tabindex="1" class="main__form_box-input" type="text" name="username" placeholder="Чендлер">
         </label>
         <label class="main__form-title">Фамилия
-        <input class="main__form_box-input" type="text" name="surname" placeholder="Бинг">
+            <input tabindex="2" class="main__form_box-input" type="text" name="surname" placeholder="Бинг">
         </label>
         <label class="main__form-title"> Ваш пол
             <label class="main__form-gender">
                 <label>
-        <input  type="radio" name="gender" > Женский
-                   </label>
+                    <input tabindex="3" type="radio" name="woman"> Женский
+                </label>
                 <label class="main__form_gender-box">
-        <input  type="radio" name="gender"> Мужской
-            </label>
+                    <input tabindex="4" type="radio" name="man"> Мужской
+                </label>
             </label>
         </label>
-
         <label class="main__form-title">Введите электронный адрес
-        <input class="main__form_box-input" type="email" name="user-email" placeholder="email@gmail.com">
+            <input tabindex="5" class="main__form_box-input" type="email" name="user-email"
+                   placeholder="email@gmail.com">
         </label>
         <label class="main__form-title">Придумайте пароль
-            <input class="main__form_box-input" type="password" name="user-password" placeholder="12345">
+            <input tabindex="6" class="main__form_box-input" type="password" name="user-password" placeholder="12345">
         </label>
         <label class="main__form_text-accept">
-            <input class="main__form_box-accept" type="checkbox" name="terms">
-            
-            Я принимаю условия<a href="#"> Пользовательского соглашения</a> и даю своё согласие на обработку моих персональных данных
-            на условиях, определенных <a href="#"> Политикой конфиденциальности</a>.
-
+            <input tabindex="7" class="main__form_box-accept" type="checkbox" name="terms">
+            <div class="main__form_text-accept-style">
+                Я принимаю условия<a tabindex="8" class="link" href="#"> Пользовательского соглашения</a> и даю своё
+                согласие на обработку моих персональных данных
+                на условиях, определенных <a tabindex="9" class="link" href="#"> Политикой конфиденциальности</a>.
+            </div>
         </label>
-        <div class="main__button">
-            <p class="main__button_text">Зарегестрироваться</p>
-        </div>
+        <button tabindex="10" class="main__button">
+            Зарегестрироваться
+        </button>
     </form>
 </div>
 </body>
