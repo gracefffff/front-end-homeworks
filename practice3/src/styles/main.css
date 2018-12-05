@@ -10,7 +10,7 @@ body{
     width:427px;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
     margin:24px 0 0 24px;
-    overflow: auto;
+
 
 
 }
@@ -84,7 +84,7 @@ input{
 
 }
 .main__button{
-    margin-top:15px;
+    margin-top:5px;
 width:371px;
     height:44px;
     border-radius: 5px;
@@ -102,9 +102,6 @@ width:371px;
     text-decoration: none;
 }
 .main__button_text{
-
-
     padding-left:112px;
     padding-top:18px;
-
 }
